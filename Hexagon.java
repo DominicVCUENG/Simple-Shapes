@@ -27,17 +27,5 @@ public class Hexagon {
     public double getSideLength() {
         return sideLength;
     }
-
-    // Main method for testing
-    public static void main(String[] args) {
-        Hexagon hexagon = new Hexagon(5.0);
-        System.out.println("Area: " + hexagon.getArea());
-        System.out.println("Perimeter: " + hexagon.getPerimeter());
-
-        hexagon.setSideLength(7.0);
-        System.out.println("New side length: " + hexagon.getSideLength());
-        System.out.println("New area: " + hexagon.getArea());
-        System.out.println("New perimeter: " + hexagon.getPerimeter());
-    }
 }
 

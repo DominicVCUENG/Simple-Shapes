@@ -52,19 +52,5 @@ public class Triangle {
     public double getSide3() {
         return side3;
     }
-
-    // Main method for testing
-    public static void main(String[] args) {
-        Triangle triangle = new Triangle(3.0, 4.0, 5.0);
-        System.out.println("Area: " + triangle.getArea());
-        System.out.println("Perimeter: " + triangle.getPerimeter());
-
-        triangle.setSide1(6.0);
-        triangle.setSide2(8.0);
-        triangle.setSide3(10.0);
-        System.out.println("New side lengths: " + triangle.getSide1() + ", " + triangle.getSide2() + ", " + triangle.getSide3());
-        System.out.println("New area: " + triangle.getArea());
-        System.out.println("New perimeter: " + triangle.getPerimeter());
-    }
 }
 

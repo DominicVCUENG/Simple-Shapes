@@ -27,17 +27,5 @@ public class Circle {
     public double getRadius() {
         return radius;
     }
-
-    // Main method for testing
-    public static void main(String[] args) {
-        Circle circle = new Circle(3.0);
-        System.out.println("Area: " + circle.getArea());
-        System.out.println("Circumference: " + circle.getCircumference());
-
-        circle.setRadius(5.0);
-        System.out.println("New radius: " + circle.getRadius());
-        System.out.println("New area: " + circle.getArea());
-        System.out.println("New circumference: " + circle.getCircumference());
-    }
 }
 

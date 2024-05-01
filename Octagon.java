@@ -27,17 +27,5 @@ public class Octagon {
     public double getSideLength() {
         return sideLength;
     }
-
-    // Main method for testing
-    public static void main(String[] args) {
-        Octagon octagon = new Octagon(5.0);
-        System.out.println("Area: " + octagon.getArea());
-        System.out.println("Perimeter: " + octagon.getPerimeter());
-
-        octagon.setSideLength(7.0);
-        System.out.println("New side length: " + octagon.getSideLength());
-        System.out.println("New area: " + octagon.getArea());
-        System.out.println("New perimeter: " + octagon.getPerimeter());
-    }
 }
 

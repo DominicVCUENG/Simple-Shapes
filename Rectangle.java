@@ -39,19 +39,5 @@ public class Rectangle {
     public double getWidth() {
         return width;
     }
-
-    // Main method for testing
-    public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle(4.0, 5.0);
-        System.out.println("Area: " + rectangle.getArea());
-        System.out.println("Perimeter: " + rectangle.getPerimeter());
-
-        rectangle.setLength(6.0);
-        rectangle.setWidth(8.0);
-        System.out.println("New length: " + rectangle.getLength());
-        System.out.println("New width: " + rectangle.getWidth());
-        System.out.println("New area: " + rectangle.getArea());
-        System.out.println("New perimeter: " + rectangle.getPerimeter());
-    }
 }
 
