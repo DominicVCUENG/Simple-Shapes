@@ -4,9 +4,9 @@ This repository contains Java classes representing various geometric shapes. Eac
 
 ## Shape Classes
 
-- [Circle.java](/app/src/main/java/assignment4/Circle.java)
-- [Hexagon.java](/app/src/main/java/assignment4/Hexagon.java)
-- [Octagon.java](/app/src/main/java/assignment4/Octagon.java)
-- [Rectangle.java](/app/src/main/java/assignment4/Rectangle.java)
-- [Square.java](/app/src/main/java/assignment4/Square.java)
-- [Triangle.java](/app/src/main/java/assignment4/Triangle.java)
+- [Circle.java](Circle.java)
+- [Hexagon.java](Hexagon.java)
+- [Octagon.java](Octagon.java)
+- [Rectangle.java](Rectangle.java)
+- [Square.java](Square.java)
+- [Triangle.java](Triangle.java)
